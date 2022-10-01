@@ -1,3 +1,8 @@
 C:\Users\Virtu\Documents\GitHub\1138122\Laboratorio\L8_1138122_P2\L8_1138122_P2\obj\Debug\L8_1138122_P2.csproj.AssemblyReference.cache
 C:\Users\Virtu\Documents\GitHub\1138122\Laboratorio\L8_1138122_P2\L8_1138122_P2\obj\Debug\L8_1138122_P2.csproj.SuggestedBindingRedirects.cache
 C:\Users\Virtu\Documents\GitHub\1138122\Laboratorio\L8_1138122_P2\L8_1138122_P2\obj\Debug\L8_1138122_P2.csproj.CoreCompileInputs.cache
+C:\Users\Virtu\Documents\GitHub\1138122\Laboratorio\L8_1138122_P2\L8_1138122_P2\bin\Debug\L8_1138122_P2.exe.config
+C:\Users\Virtu\Documents\GitHub\1138122\Laboratorio\L8_1138122_P2\L8_1138122_P2\bin\Debug\L8_1138122_P2.exe
+C:\Users\Virtu\Documents\GitHub\1138122\Laboratorio\L8_1138122_P2\L8_1138122_P2\bin\Debug\L8_1138122_P2.pdb
+C:\Users\Virtu\Documents\GitHub\1138122\Laboratorio\L8_1138122_P2\L8_1138122_P2\obj\Debug\L8_1138122_P2.exe
+C:\Users\Virtu\Documents\GitHub\1138122\Laboratorio\L8_1138122_P2\L8_1138122_P2\obj\Debug\L8_1138122_P2.pdb

@@ -82,6 +82,7 @@ namespace L8_1138122_P2
                     }
                 }
             }
+            Console.ReadKey();
         }
     }
 }
