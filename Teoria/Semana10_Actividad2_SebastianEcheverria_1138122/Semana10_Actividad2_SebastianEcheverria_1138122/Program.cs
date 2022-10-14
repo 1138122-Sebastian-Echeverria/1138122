@@ -14,6 +14,10 @@ namespace Semana10_Actividad2_SebastianEcheverria_1138122
             Console.WriteLine("Ingrese una oracion");
             string oracion = Console.ReadLine();
 
+            //Paso 1.5 hacer que todas las letras se vuelvan minusculas para evitar que las palabras se puedan repetir y salir como palabras unicas.
+            //Se puede utilizar tambien .ToUpper();
+            oracion = oracion.ToLower();
+
             //Paso 2 Aca guardamos las palabras, separadas por espacios en blanco
             char delimitador = ' ';
             string[] palabras = oracion.Split(delimitador);
@@ -67,6 +71,8 @@ namespace Semana10_Actividad2_SebastianEcheverria_1138122
                     Console.WriteLine(palabras_finales[i]);
                 }
             }
+
+            Console.ReadKey();
         }
     }
 }
