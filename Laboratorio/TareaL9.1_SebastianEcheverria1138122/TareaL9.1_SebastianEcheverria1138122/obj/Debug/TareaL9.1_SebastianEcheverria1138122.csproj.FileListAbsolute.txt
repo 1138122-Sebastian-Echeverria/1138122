@@ -1,0 +1,3 @@
+C:\Users\Virtu\Documents\GitHub\1138122\Laboratorio\TareaL9.1_SebastianEcheverria1138122\TareaL9.1_SebastianEcheverria1138122\obj\Debug\TareaL9.1_SebastianEcheverria1138122.csproj.AssemblyReference.cache
+C:\Users\Virtu\Documents\GitHub\1138122\Laboratorio\TareaL9.1_SebastianEcheverria1138122\TareaL9.1_SebastianEcheverria1138122\obj\Debug\TareaL9.1_SebastianEcheverria1138122.csproj.SuggestedBindingRedirects.cache
+C:\Users\Virtu\Documents\GitHub\1138122\Laboratorio\TareaL9.1_SebastianEcheverria1138122\TareaL9.1_SebastianEcheverria1138122\obj\Debug\TareaL9.1_SebastianEcheverria1138122.csproj.CoreCompileInputs.cache
