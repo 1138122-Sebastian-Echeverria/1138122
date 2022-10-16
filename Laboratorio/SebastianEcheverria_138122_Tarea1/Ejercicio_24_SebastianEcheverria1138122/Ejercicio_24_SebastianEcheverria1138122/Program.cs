@@ -32,9 +32,13 @@ namespace Ejercicio_24_SebastianEcheverria1138122
             Res = x * 0.15;
             Console.WriteLine(Res);
 
+            Console.WriteLine("");
+
             Console.WriteLine("Publicidad recibe el 10% el cual es: ");
             Res = x * 0.1;
             Console.WriteLine(Res);
+
+            Console.ReadKey();
         }
     }
 }
