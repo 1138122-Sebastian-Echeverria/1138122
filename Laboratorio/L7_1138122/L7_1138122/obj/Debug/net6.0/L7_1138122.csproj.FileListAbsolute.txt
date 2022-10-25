@@ -1,0 +1,15 @@
+C:\Users\Virtu\Documents\Progra\L7_1138122\L7_1138122\bin\Debug\net6.0\L7_1138122.exe
+C:\Users\Virtu\Documents\Progra\L7_1138122\L7_1138122\bin\Debug\net6.0\L7_1138122.deps.json
+C:\Users\Virtu\Documents\Progra\L7_1138122\L7_1138122\bin\Debug\net6.0\L7_1138122.runtimeconfig.json
+C:\Users\Virtu\Documents\Progra\L7_1138122\L7_1138122\bin\Debug\net6.0\L7_1138122.dll
+C:\Users\Virtu\Documents\Progra\L7_1138122\L7_1138122\bin\Debug\net6.0\L7_1138122.pdb
+C:\Users\Virtu\Documents\Progra\L7_1138122\L7_1138122\obj\Debug\net6.0\L7_1138122.csproj.AssemblyReference.cache
+C:\Users\Virtu\Documents\Progra\L7_1138122\L7_1138122\obj\Debug\net6.0\L7_1138122.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Virtu\Documents\Progra\L7_1138122\L7_1138122\obj\Debug\net6.0\L7_1138122.AssemblyInfoInputs.cache
+C:\Users\Virtu\Documents\Progra\L7_1138122\L7_1138122\obj\Debug\net6.0\L7_1138122.AssemblyInfo.cs
+C:\Users\Virtu\Documents\Progra\L7_1138122\L7_1138122\obj\Debug\net6.0\L7_1138122.csproj.CoreCompileInputs.cache
+C:\Users\Virtu\Documents\Progra\L7_1138122\L7_1138122\obj\Debug\net6.0\L7_1138122.dll
+C:\Users\Virtu\Documents\Progra\L7_1138122\L7_1138122\obj\Debug\net6.0\refint\L7_1138122.dll
+C:\Users\Virtu\Documents\Progra\L7_1138122\L7_1138122\obj\Debug\net6.0\L7_1138122.pdb
+C:\Users\Virtu\Documents\Progra\L7_1138122\L7_1138122\obj\Debug\net6.0\L7_1138122.genruntimeconfig.cache
+C:\Users\Virtu\Documents\Progra\L7_1138122\L7_1138122\obj\Debug\net6.0\ref\L7_1138122.dll
