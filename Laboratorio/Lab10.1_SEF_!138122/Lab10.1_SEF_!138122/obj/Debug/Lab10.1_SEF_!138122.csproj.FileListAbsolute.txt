@@ -1,0 +1,11 @@
+C:\Users\Estudiante\Eche\Lab10.1_SEF_!138122\Lab10.1_SEF_!138122\bin\Debug\Lab10.1_SEF_!138122.exe.config
+C:\Users\Estudiante\Eche\Lab10.1_SEF_!138122\Lab10.1_SEF_!138122\bin\Debug\Lab10.1_SEF_!138122.exe
+C:\Users\Estudiante\Eche\Lab10.1_SEF_!138122\Lab10.1_SEF_!138122\bin\Debug\Lab10.1_SEF_!138122.pdb
+C:\Users\Estudiante\Eche\Lab10.1_SEF_!138122\Lab10.1_SEF_!138122\obj\Debug\Lab10.1_SEF_!138122.csproj.AssemblyReference.cache
+C:\Users\Estudiante\Eche\Lab10.1_SEF_!138122\Lab10.1_SEF_!138122\obj\Debug\Lab10.1_SEF_!138122.csproj.SuggestedBindingRedirects.cache
+C:\Users\Estudiante\Eche\Lab10.1_SEF_!138122\Lab10.1_SEF_!138122\obj\Debug\Lab10._1_SEF__138122.Form1.resources
+C:\Users\Estudiante\Eche\Lab10.1_SEF_!138122\Lab10.1_SEF_!138122\obj\Debug\Lab10._1_SEF__138122.Properties.Resources.resources
+C:\Users\Estudiante\Eche\Lab10.1_SEF_!138122\Lab10.1_SEF_!138122\obj\Debug\Lab10.1_SEF_!138122.csproj.GenerateResource.cache
+C:\Users\Estudiante\Eche\Lab10.1_SEF_!138122\Lab10.1_SEF_!138122\obj\Debug\Lab10.1_SEF_!138122.csproj.CoreCompileInputs.cache
+C:\Users\Estudiante\Eche\Lab10.1_SEF_!138122\Lab10.1_SEF_!138122\obj\Debug\Lab10.1_SEF_!138122.exe
+C:\Users\Estudiante\Eche\Lab10.1_SEF_!138122\Lab10.1_SEF_!138122\obj\Debug\Lab10.1_SEF_!138122.pdb
