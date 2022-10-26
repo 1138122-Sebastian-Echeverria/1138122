@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32802.440
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnticipacionErrores", "AnticipacionErrores\AnticipacionErrores.csproj", "{750628C9-F4C4-42B1-9CDD-2B906AA379F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PruebasCaculadora", "PruebasCaculadora\PruebasCaculadora.csproj", "{78147C9C-F57B-47BF-BAB1-AB1AE4917722}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{750628C9-F4C4-42B1-9CDD-2B906AA379F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{750628C9-F4C4-42B1-9CDD-2B906AA379F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{750628C9-F4C4-42B1-9CDD-2B906AA379F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{750628C9-F4C4-42B1-9CDD-2B906AA379F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78147C9C-F57B-47BF-BAB1-AB1AE4917722}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78147C9C-F57B-47BF-BAB1-AB1AE4917722}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78147C9C-F57B-47BF-BAB1-AB1AE4917722}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78147C9C-F57B-47BF-BAB1-AB1AE4917722}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CC2ED99D-45BE-4CFB-85B9-464B06AA216F}
+	EndGlobalSection
+EndGlobal
