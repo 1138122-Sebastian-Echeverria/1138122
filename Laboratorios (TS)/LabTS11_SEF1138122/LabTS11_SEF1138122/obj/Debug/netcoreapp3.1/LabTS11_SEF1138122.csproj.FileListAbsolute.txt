@@ -1,0 +1,14 @@
+C:\Users\estudiante\Documents\Eche\LabTS11_SEF1138122\LabTS11_SEF1138122\bin\Debug\netcoreapp3.1\LabTS11_SEF1138122.exe
+C:\Users\estudiante\Documents\Eche\LabTS11_SEF1138122\LabTS11_SEF1138122\bin\Debug\netcoreapp3.1\LabTS11_SEF1138122.deps.json
+C:\Users\estudiante\Documents\Eche\LabTS11_SEF1138122\LabTS11_SEF1138122\bin\Debug\netcoreapp3.1\LabTS11_SEF1138122.runtimeconfig.json
+C:\Users\estudiante\Documents\Eche\LabTS11_SEF1138122\LabTS11_SEF1138122\bin\Debug\netcoreapp3.1\LabTS11_SEF1138122.runtimeconfig.dev.json
+C:\Users\estudiante\Documents\Eche\LabTS11_SEF1138122\LabTS11_SEF1138122\bin\Debug\netcoreapp3.1\LabTS11_SEF1138122.dll
+C:\Users\estudiante\Documents\Eche\LabTS11_SEF1138122\LabTS11_SEF1138122\bin\Debug\netcoreapp3.1\LabTS11_SEF1138122.pdb
+C:\Users\estudiante\Documents\Eche\LabTS11_SEF1138122\LabTS11_SEF1138122\obj\Debug\netcoreapp3.1\LabTS11_SEF1138122.csproj.AssemblyReference.cache
+C:\Users\estudiante\Documents\Eche\LabTS11_SEF1138122\LabTS11_SEF1138122\obj\Debug\netcoreapp3.1\LabTS11_SEF1138122.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\estudiante\Documents\Eche\LabTS11_SEF1138122\LabTS11_SEF1138122\obj\Debug\netcoreapp3.1\LabTS11_SEF1138122.AssemblyInfoInputs.cache
+C:\Users\estudiante\Documents\Eche\LabTS11_SEF1138122\LabTS11_SEF1138122\obj\Debug\netcoreapp3.1\LabTS11_SEF1138122.AssemblyInfo.cs
+C:\Users\estudiante\Documents\Eche\LabTS11_SEF1138122\LabTS11_SEF1138122\obj\Debug\netcoreapp3.1\LabTS11_SEF1138122.csproj.CoreCompileInputs.cache
+C:\Users\estudiante\Documents\Eche\LabTS11_SEF1138122\LabTS11_SEF1138122\obj\Debug\netcoreapp3.1\LabTS11_SEF1138122.dll
+C:\Users\estudiante\Documents\Eche\LabTS11_SEF1138122\LabTS11_SEF1138122\obj\Debug\netcoreapp3.1\LabTS11_SEF1138122.pdb
+C:\Users\estudiante\Documents\Eche\LabTS11_SEF1138122\LabTS11_SEF1138122\obj\Debug\netcoreapp3.1\LabTS11_SEF1138122.genruntimeconfig.cache
