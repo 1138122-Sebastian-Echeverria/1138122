@@ -1,0 +1,8 @@
+D:\Eche\Caclculadora_SEF1138122\Caclculadora_SEF1138122\bin\Debug\Caclculadora_SEF1138122.exe.config
+D:\Eche\Caclculadora_SEF1138122\Caclculadora_SEF1138122\bin\Debug\Caclculadora_SEF1138122.exe
+D:\Eche\Caclculadora_SEF1138122\Caclculadora_SEF1138122\bin\Debug\Caclculadora_SEF1138122.pdb
+D:\Eche\Caclculadora_SEF1138122\Caclculadora_SEF1138122\obj\Debug\Caclculadora_SEF1138122.csproj.AssemblyReference.cache
+D:\Eche\Caclculadora_SEF1138122\Caclculadora_SEF1138122\obj\Debug\Caclculadora_SEF1138122.csproj.SuggestedBindingRedirects.cache
+D:\Eche\Caclculadora_SEF1138122\Caclculadora_SEF1138122\obj\Debug\Caclculadora_SEF1138122.csproj.CoreCompileInputs.cache
+D:\Eche\Caclculadora_SEF1138122\Caclculadora_SEF1138122\obj\Debug\Caclculadora_SEF1138122.exe
+D:\Eche\Caclculadora_SEF1138122\Caclculadora_SEF1138122\obj\Debug\Caclculadora_SEF1138122.pdb
