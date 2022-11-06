@@ -1,0 +1,28 @@
+C:\Users\driva\Desktop\TAREAS URL\TAREAS (SEGUNDO CICLO)\Mate Discreta II\Proyecto\P1_DISCRETAII\P1_DISCRETAII\bin\Debug\P1_DISCRETAII.exe.config
+C:\Users\driva\Desktop\TAREAS URL\TAREAS (SEGUNDO CICLO)\Mate Discreta II\Proyecto\P1_DISCRETAII\P1_DISCRETAII\bin\Debug\P1_DISCRETAII.exe
+C:\Users\driva\Desktop\TAREAS URL\TAREAS (SEGUNDO CICLO)\Mate Discreta II\Proyecto\P1_DISCRETAII\P1_DISCRETAII\bin\Debug\P1_DISCRETAII.pdb
+C:\Users\driva\Desktop\TAREAS URL\TAREAS (SEGUNDO CICLO)\Mate Discreta II\Proyecto\P1_DISCRETAII\P1_DISCRETAII\obj\Debug\P1_DISCRETAII.csproj.AssemblyReference.cache
+C:\Users\driva\Desktop\TAREAS URL\TAREAS (SEGUNDO CICLO)\Mate Discreta II\Proyecto\P1_DISCRETAII\P1_DISCRETAII\obj\Debug\P1_DISCRETAII.csproj.SuggestedBindingRedirects.cache
+C:\Users\driva\Desktop\TAREAS URL\TAREAS (SEGUNDO CICLO)\Mate Discreta II\Proyecto\P1_DISCRETAII\P1_DISCRETAII\obj\Debug\P1_DISCRETAII.Form1.resources
+C:\Users\driva\Desktop\TAREAS URL\TAREAS (SEGUNDO CICLO)\Mate Discreta II\Proyecto\P1_DISCRETAII\P1_DISCRETAII\obj\Debug\P1_DISCRETAII.menu.resources
+C:\Users\driva\Desktop\TAREAS URL\TAREAS (SEGUNDO CICLO)\Mate Discreta II\Proyecto\P1_DISCRETAII\P1_DISCRETAII\obj\Debug\P1_DISCRETAII.Properties.Resources.resources
+C:\Users\driva\Desktop\TAREAS URL\TAREAS (SEGUNDO CICLO)\Mate Discreta II\Proyecto\P1_DISCRETAII\P1_DISCRETAII\obj\Debug\P1_DISCRETAII.csproj.GenerateResource.cache
+C:\Users\driva\Desktop\TAREAS URL\TAREAS (SEGUNDO CICLO)\Mate Discreta II\Proyecto\P1_DISCRETAII\P1_DISCRETAII\obj\Debug\P1_DISCRETAII.csproj.CoreCompileInputs.cache
+C:\Users\driva\Desktop\TAREAS URL\TAREAS (SEGUNDO CICLO)\Mate Discreta II\Proyecto\P1_DISCRETAII\P1_DISCRETAII\obj\Debug\P1_DISCRETAII.exe
+C:\Users\driva\Desktop\TAREAS URL\TAREAS (SEGUNDO CICLO)\Mate Discreta II\Proyecto\P1_DISCRETAII\P1_DISCRETAII\obj\Debug\P1_DISCRETAII.pdb
+C:\Users\driva\Desktop\TAREAS URL\TAREAS (SEGUNDO CICLO)\Mate Discreta II\Proyecto\P1_DISCRETAII\P1_DISCRETAII\obj\Debug\P1_DISCRETAII.grafo1.resources
+C:\Users\driva\Desktop\TAREAS URL\TAREAS (SEGUNDO CICLO)\Mate Discreta II\Proyecto\P1_DISCRETAII\P1_DISCRETAII\obj\Debug\P1_DISCRETAII.grafo2.resources
+C:\Users\Virtu\Documents\GitHub\1138122\Proyecto discreta\P1_DISCRETAII\P1_DISCRETAII\bin\Debug\P1_DISCRETAII.exe.config
+C:\Users\Virtu\Documents\GitHub\1138122\Proyecto discreta\P1_DISCRETAII\P1_DISCRETAII\bin\Debug\P1_DISCRETAII.exe
+C:\Users\Virtu\Documents\GitHub\1138122\Proyecto discreta\P1_DISCRETAII\P1_DISCRETAII\bin\Debug\P1_DISCRETAII.pdb
+C:\Users\Virtu\Documents\GitHub\1138122\Proyecto discreta\P1_DISCRETAII\P1_DISCRETAII\obj\Debug\P1_DISCRETAII.csproj.AssemblyReference.cache
+C:\Users\Virtu\Documents\GitHub\1138122\Proyecto discreta\P1_DISCRETAII\P1_DISCRETAII\obj\Debug\P1_DISCRETAII.csproj.SuggestedBindingRedirects.cache
+C:\Users\Virtu\Documents\GitHub\1138122\Proyecto discreta\P1_DISCRETAII\P1_DISCRETAII\obj\Debug\P1_DISCRETAII.Form1.resources
+C:\Users\Virtu\Documents\GitHub\1138122\Proyecto discreta\P1_DISCRETAII\P1_DISCRETAII\obj\Debug\P1_DISCRETAII.grafo1.resources
+C:\Users\Virtu\Documents\GitHub\1138122\Proyecto discreta\P1_DISCRETAII\P1_DISCRETAII\obj\Debug\P1_DISCRETAII.grafo2.resources
+C:\Users\Virtu\Documents\GitHub\1138122\Proyecto discreta\P1_DISCRETAII\P1_DISCRETAII\obj\Debug\P1_DISCRETAII.menu.resources
+C:\Users\Virtu\Documents\GitHub\1138122\Proyecto discreta\P1_DISCRETAII\P1_DISCRETAII\obj\Debug\P1_DISCRETAII.Properties.Resources.resources
+C:\Users\Virtu\Documents\GitHub\1138122\Proyecto discreta\P1_DISCRETAII\P1_DISCRETAII\obj\Debug\P1_DISCRETAII.csproj.GenerateResource.cache
+C:\Users\Virtu\Documents\GitHub\1138122\Proyecto discreta\P1_DISCRETAII\P1_DISCRETAII\obj\Debug\P1_DISCRETAII.csproj.CoreCompileInputs.cache
+C:\Users\Virtu\Documents\GitHub\1138122\Proyecto discreta\P1_DISCRETAII\P1_DISCRETAII\obj\Debug\P1_DISCRETAII.exe
+C:\Users\Virtu\Documents\GitHub\1138122\Proyecto discreta\P1_DISCRETAII\P1_DISCRETAII\obj\Debug\P1_DISCRETAII.pdb
