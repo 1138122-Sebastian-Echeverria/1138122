@@ -18,5 +18,7 @@ namespace P_SEF1138122_LC1088821
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());
         }
+
+        
     }
 }
