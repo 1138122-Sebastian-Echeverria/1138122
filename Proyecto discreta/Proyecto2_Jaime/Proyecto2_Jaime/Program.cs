@@ -139,7 +139,19 @@ namespace Proyecto2_Jaime
 
                         Console.Clear();
                         Console.WriteLine("Sexta pregunta:"); //Pregunta 6
-                        Console.WriteLine("Aproximadamente, ¿cuántos huesos tiene el cuerpo humano? \n a) 40 \n b) 206 \n c) 390");
+                        Console.WriteLine("¿Cual es la importantancia del pensamiento computacional? \n a) Reforzar las habilidades numericas \n b) Mejorar pensamiento Logico \n c) Trabajar la capacidad de pensamiento \n d) Todas las anteriores");
+                        respuesta = Console.ReadLine();
+
+                        respuesta.ToLower();
+
+                        if (respuesta == "d")
+                        {
+                            puntos = puntos + 100;
+                        }
+
+                        Console.Clear();
+                        Console.WriteLine("Septima pregunta:"); //Pregunta 7
+                        Console.WriteLine("¿Cual de los siguientes es un ejemplo de un Array? \n a) int X = 23; \n b) int[] x = new int[3]; \n c) int{ } x = new int{3};");
                         respuesta = Console.ReadLine();
 
                         respuesta.ToLower();
@@ -150,32 +162,20 @@ namespace Proyecto2_Jaime
                         }
 
                         Console.Clear();
-                        Console.WriteLine("Septima pregunta:"); //Pregunta 7
-                        Console.WriteLine(" ¿Quien es Don Quijote de la Mancha? \n a) Un pobre hidalgo \n b) Un caballero \n c) Un general");
-                        respuesta = Console.ReadLine();
-
-                        respuesta.ToLower();
-
-                        if (respuesta == "a")
-                        {
-                            puntos = puntos + 100;
-                        }
-
-                        Console.Clear();
                         Console.WriteLine("Octava pregunta:"); //Pregunta 8
-                        Console.WriteLine(" ¿Cual es el salario minimo en Guatemala para un salario no agricola? \n a) 3,209.24 \n b) 3,122.55 \n c) 2,954.35");
+                        Console.WriteLine(" ¿Con que operacion aritmetica simple se puede programar otras operaciones aritmeticas? \n a) No se puede. \n b) con los diferentes simbolos aritmeticos. \n c) con sumas.");
                         respuesta = Console.ReadLine();
 
                         respuesta.ToLower();
 
-                        if (respuesta == "a")
+                        if (respuesta == "c")
                         {
                             puntos = puntos + 100;
                         }
 
                         Console.Clear();
                         Console.WriteLine("Novena pregunta:"); //Pregunta 9
-                        Console.WriteLine(" ¿Cual de los siguientes es una maravilla del mundo? \n a) Petra \n b) El Presidente \n c) La McRib");
+                        Console.WriteLine(" ¿Para que sirve un Array? \n a) Para almacenar multiples valores en una sola variable. \n b) Para Facilitar el trabajo. \n c) Para no perder el año.");
                         respuesta = Console.ReadLine();
 
                         respuesta.ToLower();
@@ -187,7 +187,7 @@ namespace Proyecto2_Jaime
 
                         Console.Clear();
                         Console.WriteLine("Decima pregunta:"); //Pregunta 10
-                        Console.WriteLine(" \n a) \n b) \n c)");
+                        Console.WriteLine(" ¿? \n a) \n b) \n c)");
                         respuesta = Console.ReadLine();
 
                         respuesta.ToLower();
@@ -206,7 +206,7 @@ namespace Proyecto2_Jaime
 
                         if (respuesta == "v")
                         {
-                            puntos = puntos + 50;
+                            puntos = puntos + 200;
                         }
 
                         Console.Clear();
@@ -218,7 +218,7 @@ namespace Proyecto2_Jaime
 
                         if (respuesta == "v")
                         {
-                            puntos = puntos + 50;
+                            puntos = puntos + 200;
                         }
 
                         Console.Clear();
@@ -230,7 +230,7 @@ namespace Proyecto2_Jaime
 
                         if (respuesta == "v")
                         {
-                            puntos = puntos + 50;
+                            puntos = puntos + 200;
                         }
 
                         Console.Clear();
@@ -242,7 +242,7 @@ namespace Proyecto2_Jaime
 
                         if (respuesta == "v")
                         {
-                            puntos = puntos + 50;
+                            puntos = puntos + 200;
                         }
 
                         Console.Clear();
@@ -254,7 +254,7 @@ namespace Proyecto2_Jaime
 
                         if (respuesta == "v")
                         {
-                            puntos = puntos + 50;
+                            puntos = puntos + 200;
                         }
 
                         //Guardar datos de los estudiantes
