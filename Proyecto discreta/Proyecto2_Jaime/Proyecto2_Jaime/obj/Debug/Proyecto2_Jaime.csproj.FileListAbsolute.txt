@@ -1,8 +1,0 @@
-C:\Users\Virtu\Documents\GitHub\1138122\Proyecto discreta\Proyecto2_Jaime\Proyecto2_Jaime\bin\Debug\Proyecto2_Jaime.exe.config
-C:\Users\Virtu\Documents\GitHub\1138122\Proyecto discreta\Proyecto2_Jaime\Proyecto2_Jaime\bin\Debug\Proyecto2_Jaime.exe
-C:\Users\Virtu\Documents\GitHub\1138122\Proyecto discreta\Proyecto2_Jaime\Proyecto2_Jaime\bin\Debug\Proyecto2_Jaime.pdb
-C:\Users\Virtu\Documents\GitHub\1138122\Proyecto discreta\Proyecto2_Jaime\Proyecto2_Jaime\obj\Debug\Proyecto2_Jaime.csproj.AssemblyReference.cache
-C:\Users\Virtu\Documents\GitHub\1138122\Proyecto discreta\Proyecto2_Jaime\Proyecto2_Jaime\obj\Debug\Proyecto2_Jaime.csproj.SuggestedBindingRedirects.cache
-C:\Users\Virtu\Documents\GitHub\1138122\Proyecto discreta\Proyecto2_Jaime\Proyecto2_Jaime\obj\Debug\Proyecto2_Jaime.csproj.CoreCompileInputs.cache
-C:\Users\Virtu\Documents\GitHub\1138122\Proyecto discreta\Proyecto2_Jaime\Proyecto2_Jaime\obj\Debug\Proyecto2_Jaime.exe
-C:\Users\Virtu\Documents\GitHub\1138122\Proyecto discreta\Proyecto2_Jaime\Proyecto2_Jaime\obj\Debug\Proyecto2_Jaime.pdb
