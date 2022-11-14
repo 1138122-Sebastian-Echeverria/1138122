@@ -11,5 +11,12 @@ namespace P_SEF1138122_LC1088821
         public string nombre;
         public int puntosDeVida;
         public double daño;
+
+        public Carta(string nombre, int puntosDeVida, double daño)
+        {
+            this.nombre = nombre;
+            this.puntosDeVida = puntosDeVida;
+            this.daño = daño;
+        }
     }
 }

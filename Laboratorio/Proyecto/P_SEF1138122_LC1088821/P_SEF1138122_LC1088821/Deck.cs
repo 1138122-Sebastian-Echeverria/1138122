@@ -10,33 +10,32 @@ namespace P_SEF1138122_LC1088821
     {
         public Carta[] Cartas = new Carta[8];
         public double PuntosdeVida;
-        public double Daño;
+        public double Daño = 0;
         public double ataque;
         public double defensa;
         public double sinergia;
-        public double balance;
         public string nombre;
 
         public double GetDañoTotal()
         {
-            double DañoT = 0;
+            Daño = 0;
             for (int i = 0; i < Cartas.Length; i++)
             {
-                DañoT = DañoT + Cartas[i].daño;
+                Daño = Daño + Cartas[i].daño;
             }
 
-            return DañoT;
+            return Daño;
         }
 
         public double GetPuntosDeVida()
         {
-            double VidaT = 0;
+            PuntosdeVida = 0;
             for (int i = 0; i < Cartas.Length; i++)
             {
-                VidaT = VidaT + Cartas[i].puntosDeVida;
+                PuntosdeVida = PuntosdeVida + Cartas[i].puntosDeVida;
             }
 
-            return VidaT;
+            return PuntosdeVida;
         }
 
         public Deck(string nombre)
