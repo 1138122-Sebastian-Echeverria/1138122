@@ -1,8 +1,0 @@
-C:\Users\Virtu\Documents\GitHub\1138122\Para pruebas\Pruebas\Pruebas\bin\Debug\Pruebas.exe.config
-C:\Users\Virtu\Documents\GitHub\1138122\Para pruebas\Pruebas\Pruebas\bin\Debug\Pruebas.exe
-C:\Users\Virtu\Documents\GitHub\1138122\Para pruebas\Pruebas\Pruebas\bin\Debug\Pruebas.pdb
-C:\Users\Virtu\Documents\GitHub\1138122\Para pruebas\Pruebas\Pruebas\obj\Debug\Pruebas.csproj.AssemblyReference.cache
-C:\Users\Virtu\Documents\GitHub\1138122\Para pruebas\Pruebas\Pruebas\obj\Debug\Pruebas.csproj.SuggestedBindingRedirects.cache
-C:\Users\Virtu\Documents\GitHub\1138122\Para pruebas\Pruebas\Pruebas\obj\Debug\Pruebas.csproj.CoreCompileInputs.cache
-C:\Users\Virtu\Documents\GitHub\1138122\Para pruebas\Pruebas\Pruebas\obj\Debug\Pruebas.exe
-C:\Users\Virtu\Documents\GitHub\1138122\Para pruebas\Pruebas\Pruebas\obj\Debug\Pruebas.pdb
