@@ -18,6 +18,7 @@ namespace P_SEF1138122_LC1088821
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());
 
+
             //Primer Mazo
             Deck deck1P1 = new Deck("Torre del Noble");
             deck1P1.Cartas[0] = new Carta("Gigante Noble", 3072, 307);
