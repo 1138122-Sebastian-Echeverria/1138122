@@ -58,6 +58,7 @@
             this.button1.TabIndex = 0;
             this.button1.Text = "Siguiente";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // pictureBox1
             // 
@@ -128,6 +129,7 @@
             this.EquipoJ1.Name = "EquipoJ1";
             this.EquipoJ1.Size = new System.Drawing.Size(121, 21);
             this.EquipoJ1.TabIndex = 12;
+            this.EquipoJ1.SelectedIndexChanged += new System.EventHandler(this.EquipoJ1_SelectedIndexChanged);
             // 
             // ApellidoJ1
             // 
@@ -153,6 +155,7 @@
             this.EquipoJ2.Name = "EquipoJ2";
             this.EquipoJ2.Size = new System.Drawing.Size(121, 21);
             this.EquipoJ2.TabIndex = 19;
+            this.EquipoJ2.SelectedIndexChanged += new System.EventHandler(this.EquipoJ2_SelectedIndexChanged);
             // 
             // label6
             // 
