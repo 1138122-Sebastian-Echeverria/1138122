@@ -10,3 +10,4 @@ C:\Users\Virtu\Documents\GitHub\1138122\Laboratorio\Proyecto\P_SEF1138122_LC1088
 C:\Users\Virtu\Documents\GitHub\1138122\Laboratorio\Proyecto\P_SEF1138122_LC1088821\P_SEF1138122_LC1088821\obj\Debug\P_SEF1138122_LC1088821.csproj.CoreCompileInputs.cache
 C:\Users\Virtu\Documents\GitHub\1138122\Laboratorio\Proyecto\P_SEF1138122_LC1088821\P_SEF1138122_LC1088821\obj\Debug\P_SEF1138122_LC1088821.exe
 C:\Users\Virtu\Documents\GitHub\1138122\Laboratorio\Proyecto\P_SEF1138122_LC1088821\P_SEF1138122_LC1088821\obj\Debug\P_SEF1138122_LC1088821.pdb
+C:\Users\Virtu\Documents\GitHub\1138122\Laboratorio\Proyecto\P_SEF1138122_LC1088821\P_SEF1138122_LC1088821\obj\Debug\P_SEF1138122_LC1088821.Pelea.resources

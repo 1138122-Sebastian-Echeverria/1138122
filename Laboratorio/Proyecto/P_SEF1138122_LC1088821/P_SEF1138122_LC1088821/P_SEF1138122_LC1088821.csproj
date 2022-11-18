@@ -77,6 +77,9 @@
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Pelea.resx">
+      <DependentUpon>Pelea.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <SubType>Designer</SubType>
@@ -100,6 +103,11 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
+    <Content Include="Resources\Fondo.png" />
+    <Content Include="Resources\n1.png" />
+    <Content Include="Resources\n2.png" />
+    <Content Include="Resources\n3.png" />
+    <Content Include="Resources\n4.png" />
     <Content Include="Resources\4fcc397ab6ba9294b67f7c9878b83a8c.jpg" />
     <Content Include="Resources\e76d97f0d6da66b1f5a6e7230c2364c6.jpg" />
   </ItemGroup>

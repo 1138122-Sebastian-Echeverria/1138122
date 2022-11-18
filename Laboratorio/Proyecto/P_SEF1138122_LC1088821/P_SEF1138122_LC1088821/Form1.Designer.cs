@@ -46,6 +46,7 @@
             this.EquipoJ1 = new System.Windows.Forms.TextBox();
             this.EquipoJ2 = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -86,7 +87,7 @@
             // pictureBox3
             // 
             this.pictureBox3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox3.BackgroundImage")));
-            this.pictureBox3.Location = new System.Drawing.Point(0, -1);
+            this.pictureBox3.Location = new System.Drawing.Point(0, 3);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(579, 368);
             this.pictureBox3.TabIndex = 3;
@@ -199,11 +200,23 @@
             this.label5.TabIndex = 23;
             this.label5.Text = "Bienvenido a Clash Simulator 2022";
             // 
+            // label7
+            // 
+            this.label7.BackColor = System.Drawing.Color.Indigo;
+            this.label7.ForeColor = System.Drawing.Color.White;
+            this.label7.Location = new System.Drawing.Point(381, 301);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(186, 57);
+            this.label7.TabIndex = 24;
+            this.label7.Text = "Hecho por:\r\nSebastian Echeverria 1138122\r\ny\r\nLaura Calderon 1088821";
+            this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(579, 367);
+            this.Controls.Add(this.label7);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.EquipoJ2);
             this.Controls.Add(this.EquipoJ1);
@@ -250,6 +263,7 @@
         private System.Windows.Forms.TextBox EquipoJ1;
         private System.Windows.Forms.TextBox EquipoJ2;
         private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label7;
     }
 }
 

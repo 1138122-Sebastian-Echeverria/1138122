@@ -16,6 +16,8 @@ namespace P_SEF1138122_LC1088821
         public double sinergia;
         public string nombre;
 
+
+
         public double GetDañoTotal()
         {
             Daño = 0;
