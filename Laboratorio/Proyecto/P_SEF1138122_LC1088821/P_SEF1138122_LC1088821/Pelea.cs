@@ -30,6 +30,7 @@ namespace P_SEF1138122_LC1088821
         double S2;
         int cont1 = 0;
         int cont2 = 0;
+        string sub = "";
 
         public Pelea(string nombre1, string nombre2, int deckJ1, int deckJ2)
         {
@@ -53,6 +54,69 @@ namespace P_SEF1138122_LC1088821
             deck1P1.defensa = 10.0;
             deck1P1.sinergia = 6.0;
 
+            string[] Subs = deck1P1.Cartas[0].nombre.Split(' ');
+            for (int i = 0; i < Subs.Length; i++)
+            {
+                sub = sub + "\n" + Subs[i];
+            }
+            label1.Text = sub;
+
+            sub = "";
+            Subs = deck1P1.Cartas[1].nombre.Split(' ');
+            for (int i = 0; i < Subs.Length; i++)
+            {
+                sub = sub + "\n" + Subs[i];
+            }
+            label2.Text = sub;
+
+            sub = "";
+            Subs = deck1P1.Cartas[2].nombre.Split(' ');
+            for (int i = 0; i < Subs.Length; i++)
+            {
+                sub = sub + "\n" + Subs[i];
+            }
+            label3.Text = sub;
+
+            sub = "";
+            Subs = deck1P1.Cartas[3].nombre.Split(' ');
+            for (int i = 0; i < Subs.Length; i++)
+            {
+                sub = sub + "\n" + Subs[i];
+            }
+            label4.Text = sub;
+
+            sub = "";
+            Subs = deck1P1.Cartas[4].nombre.Split(' ');
+            for (int i = 0; i < Subs.Length; i++)
+            {
+                sub = sub + "\n" + Subs[i];
+            }
+            label5.Text = sub;
+
+            sub = "";
+            Subs = deck1P1.Cartas[5].nombre.Split(' ');
+            for (int i = 0; i < Subs.Length; i++)
+            {
+                sub = sub + "\n" + Subs[i];
+            }
+            label6.Text = sub;
+
+            sub = "";
+            Subs = deck1P1.Cartas[6].nombre.Split(' ');
+            for (int i = 0; i < Subs.Length; i++)
+            {
+                sub = sub + "\n" + Subs[i];
+            }
+            label7.Text = sub;
+
+            sub = "";
+            Subs = deck1P1.Cartas[7].nombre.Split(' ');
+            for (int i = 0; i < Subs.Length; i++)
+            {
+                sub = sub + "\n" + Subs[i];
+            }
+            label8.Text = sub;
+
             //Segundo Mazo
             Deck deck2P1 = new Deck("Defensiva Barbara");
             deck2P1.Cartas[0] = new Carta("Monta Puercos", 1696, 318);
@@ -66,6 +130,69 @@ namespace P_SEF1138122_LC1088821
             deck2P1.ataque = 8.0;
             deck2P1.defensa = 10.0;
             deck2P1.sinergia = 9.2;
+
+            sub = "";
+            Subs = deck2P1.Cartas[0].nombre.Split(' ');
+            for (int i = 0; i < Subs.Length; i++)
+            {
+                sub = sub + "\n" + Subs[i];
+            }
+            label9.Text = sub;
+
+            sub = "";
+            Subs = deck2P1.Cartas[1].nombre.Split(' ');
+            for (int i = 0; i < Subs.Length; i++)
+            {
+                sub = sub + "\n" + Subs[i];
+            }
+            label10.Text = sub;
+
+            sub = "";
+            Subs = deck2P1.Cartas[2].nombre.Split(' ');
+            for (int i = 0; i < Subs.Length; i++)
+            {
+                sub = sub + "\n" + Subs[i];
+            }
+            label11.Text = sub;
+
+            sub = "";
+            Subs = deck2P1.Cartas[3].nombre.Split(' ');
+            for (int i = 0; i < Subs.Length; i++)
+            {
+                sub = sub + "\n" + Subs[i];
+            }
+            label12.Text = sub;
+
+            sub = "";
+            Subs = deck2P1.Cartas[4].nombre.Split(' ');
+            for (int i = 0; i < Subs.Length; i++)
+            {
+                sub = sub + "\n" + Subs[i];
+            }
+            label13.Text = sub;
+
+            Subs = deck2P1.Cartas[5].nombre.Split(' ');
+            for (int i = 0; i < Subs.Length; i++)
+            {
+                sub = sub + "\n" + Subs[i];
+            }
+            label14.Text = sub;
+
+            sub = "";
+            Subs = deck2P1.Cartas[6].nombre.Split(' ');
+            for (int i = 0; i < Subs.Length; i++)
+            {
+                sub = sub + "\n" + Subs[i];
+            }
+            label15.Text = sub;
+
+            sub = "";
+            Subs = deck2P1.Cartas[7].nombre.Split(' ');
+            for (int i = 0; i < Subs.Length; i++)
+            {
+                sub = sub + "\n" + Subs[i];
+            }
+            label16.Text = sub;
 
             //Tercer Mazo
             Deck deck1P2 = new Deck("La venganza del noble");
@@ -81,6 +208,69 @@ namespace P_SEF1138122_LC1088821
             deck1P2.defensa = 10.0;
             deck1P2.sinergia = 7.8;
 
+            sub = "";
+            Subs = deck1P2.Cartas[0].nombre.Split(' ');
+            for (int i = 0; i < Subs.Length; i++)
+            {
+                sub = sub + "\n" + Subs[i];
+            }
+            label17.Text = sub;
+
+            sub = "";
+            Subs = deck1P2.Cartas[1].nombre.Split(' ');
+            for (int i = 0; i < Subs.Length; i++)
+            {
+                sub = sub + "\n" + Subs[i];
+            }
+            label18.Text = sub;
+
+            sub = "";
+            Subs = deck1P2.Cartas[2].nombre.Split(' ');
+            for (int i = 0; i < Subs.Length; i++)
+            {
+                sub = sub + "\n" + Subs[i];
+            }
+            label19.Text = sub;
+
+            sub = "";
+            Subs = deck1P2.Cartas[3].nombre.Split(' ');
+            for (int i = 0; i < Subs.Length; i++)
+            {
+                sub = sub + "\n" + Subs[i];
+            }
+            label20.Text = sub;
+
+            sub = "";
+            Subs = deck1P2.Cartas[4].nombre.Split(' ');
+            for (int i = 0; i < Subs.Length; i++)
+            {
+                sub = sub + "\n" + Subs[i];
+            }
+            label21.Text = sub;
+
+            Subs = deck1P2.Cartas[5].nombre.Split(' ');
+            for (int i = 0; i < Subs.Length; i++)
+            {
+                sub = sub + "\n" + Subs[i];
+            }
+            label22.Text = sub;
+
+            sub = "";
+            Subs = deck1P2.Cartas[6].nombre.Split(' ');
+            for (int i = 0; i < Subs.Length; i++)
+            {
+                sub = sub + "\n" + Subs[i];
+            }
+            label23.Text = sub;
+
+            sub = "";
+            Subs = deck1P2.Cartas[7].nombre.Split(' ');
+            for (int i = 0; i < Subs.Length; i++)
+            {
+                sub = sub + "\n" + Subs[i];
+            }
+            label24.Text = sub;
+
             //Cuarto Mazo
             Deck deck2P2 = new Deck("Las tierras oscuras");
             deck2P2.Cartas[0] = new Carta("Bandida", 907, 193);
@@ -95,7 +285,68 @@ namespace P_SEF1138122_LC1088821
             deck2P2.defensa = 8.0;
             deck2P2.sinergia = 10.0;
 
-            
+            sub = "";
+            Subs = deck2P2.Cartas[0].nombre.Split(' ');
+            for (int i = 0; i < Subs.Length; i++)
+            {
+                sub = sub + "\n" + Subs[i];
+            }
+            label25.Text = sub;
+
+            sub = "";
+            Subs = deck2P2.Cartas[1].nombre.Split(' ');
+            for (int i = 0; i < Subs.Length; i++)
+            {
+                sub = sub + "\n" + Subs[i];
+            }
+            label26.Text = sub;
+
+            sub = "";
+            Subs = deck2P2.Cartas[2].nombre.Split(' ');
+            for (int i = 0; i < Subs.Length; i++)
+            {
+                sub = sub + "\n" + Subs[i];
+            }
+            label27.Text = sub;
+
+            sub = "";
+            Subs = deck2P2.Cartas[3].nombre.Split(' ');
+            for (int i = 0; i < Subs.Length; i++)
+            {
+                sub = sub + "\n" + Subs[i];
+            }
+            label28.Text = sub;
+
+            sub = "";
+            Subs = deck2P2.Cartas[4].nombre.Split(' ');
+            for (int i = 0; i < Subs.Length; i++)
+            {
+                sub = sub + "\n" + Subs[i];
+            }
+            label29.Text = sub;
+
+            Subs = deck2P2.Cartas[5].nombre.Split(' ');
+            for (int i = 0; i < Subs.Length; i++)
+            {
+                sub = sub + "\n" + Subs[i];
+            }
+            label30.Text = sub;
+
+            sub = "";
+            Subs = deck2P2.Cartas[6].nombre.Split(' ');
+            for (int i = 0; i < Subs.Length; i++)
+            {
+                sub = sub + "\n" + Subs[i];
+            }
+            label31.Text = sub;
+
+            sub = "";
+            Subs = deck2P2.Cartas[7].nombre.Split(' ');
+            for (int i = 0; i < Subs.Length; i++)
+            {
+                sub = sub + "\n" + Subs[i];
+            }
+            label32.Text = sub;
 
 
             if (deckJ1 == 1)
