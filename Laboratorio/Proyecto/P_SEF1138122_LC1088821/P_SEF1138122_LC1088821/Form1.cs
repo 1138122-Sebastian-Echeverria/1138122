@@ -33,6 +33,10 @@ namespace P_SEF1138122_LC1088821
             {
                 MessageBox.Show("Porfavor asegurese de llenar todos los espacios", "Pequeño error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
+            else if (equipo1 == equipo2)
+            {
+                MessageBox.Show("No pueden tener el mismo Equipo, porfavor cambielo", "Pequeño error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
             else
             {
                 nombre = NombreJ1.Text;
