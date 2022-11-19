@@ -29,11 +29,11 @@ namespace P_SEF1138122_LC1088821
             string equipo2 = "";
             int numero;
 
-            if (EquipoJ1.Text == null || NombreJ1.Text == null || ApellidoJ1.Text == null || EquipoJ2.Text == null || NombreJ2.Text == null || ApellidoJ2.Text == null)
+            if (EquipoJ1.Text == "" || NombreJ1.Text == "" || ApellidoJ1.Text == "" || EquipoJ2.Text == "" || NombreJ2.Text == "" || ApellidoJ2.Text == "")
             {
                 MessageBox.Show("Porfavor asegurese de llenar todos los espacios", "Pequeño error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
-            else if (equipo1 == equipo2)
+            else if (EquipoJ1.Text == EquipoJ2.Text)
             {
                 MessageBox.Show("No pueden tener el mismo Equipo, porfavor cambielo", "Pequeño error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }

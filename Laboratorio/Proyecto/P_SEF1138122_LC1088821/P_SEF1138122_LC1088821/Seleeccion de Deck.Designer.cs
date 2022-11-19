@@ -170,6 +170,9 @@
             // groupBox1
             // 
             this.groupBox1.BackColor = System.Drawing.Color.RosyBrown;
+            this.groupBox1.Controls.Add(this.label14);
+            this.groupBox1.Controls.Add(this.label13);
+            this.groupBox1.Controls.Add(this.label11);
             this.groupBox1.Controls.Add(this.HintP1);
             this.groupBox1.Controls.Add(this.S2J1);
             this.groupBox1.Controls.Add(this.Def2J1);
@@ -181,11 +184,6 @@
             this.groupBox1.Controls.Add(this.A1J1);
             this.groupBox1.Controls.Add(this.V1J1);
             this.groupBox1.Controls.Add(this.D1j1);
-            this.groupBox1.Controls.Add(this.label23);
-            this.groupBox1.Controls.Add(this.label22);
-            this.groupBox1.Controls.Add(this.label21);
-            this.groupBox1.Controls.Add(this.label20);
-            this.groupBox1.Controls.Add(this.label19);
             this.groupBox1.Controls.Add(this.label16);
             this.groupBox1.Controls.Add(this.label12);
             this.groupBox1.Controls.Add(this.label9);
@@ -194,8 +192,10 @@
             this.groupBox1.Controls.Add(this.label6);
             this.groupBox1.Controls.Add(this.label5);
             this.groupBox1.Controls.Add(this.label4);
+            this.groupBox1.Controls.Add(this.label15);
             this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Controls.Add(this.label2);
+            this.groupBox1.Controls.Add(this.label10);
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Controls.Add(this.pictureBox2);
             this.groupBox1.Controls.Add(this.pictureBox1);
@@ -321,154 +321,155 @@
             // 
             this.label23.AutoSize = true;
             this.label23.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label23.Location = new System.Drawing.Point(206, 403);
+            this.label23.Location = new System.Drawing.Point(136, 181);
             this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(46, 26);
+            this.label23.Size = new System.Drawing.Size(19, 13);
             this.label23.TabIndex = 26;
-            this.label23.Text = "Monta\r\nPuercos";
+            this.label23.Text = "23";
             // 
             // label22
             // 
             this.label22.AutoSize = true;
-            this.label22.Location = new System.Drawing.Point(14, 407);
+            this.label22.Location = new System.Drawing.Point(74, 181);
             this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(49, 13);
+            this.label22.Size = new System.Drawing.Size(19, 13);
             this.label22.TabIndex = 25;
-            this.label22.Text = "Barbaros";
+            this.label22.Text = "22";
             // 
             // label21
             // 
             this.label21.AutoSize = true;
-            this.label21.Location = new System.Drawing.Point(207, 256);
+            this.label21.Location = new System.Drawing.Point(15, 181);
             this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(43, 13);
+            this.label21.Size = new System.Drawing.Size(19, 13);
             this.label21.TabIndex = 24;
-            this.label21.Text = "Mortero";
+            this.label21.Text = "21";
             // 
             // label20
             // 
             this.label20.AutoSize = true;
-            this.label20.Location = new System.Drawing.Point(138, 248);
+            this.label20.Location = new System.Drawing.Point(193, 46);
             this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(56, 26);
+            this.label20.Size = new System.Drawing.Size(19, 13);
             this.label20.TabIndex = 23;
-            this.label20.Text = "Banda de \r\nGoblings";
+            this.label20.Text = "20";
             // 
             // label19
             // 
             this.label19.AutoSize = true;
-            this.label19.Location = new System.Drawing.Point(79, 256);
+            this.label19.Location = new System.Drawing.Point(138, 46);
             this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(46, 13);
+            this.label19.Size = new System.Drawing.Size(19, 13);
             this.label19.TabIndex = 22;
-            this.label19.Text = "Aqueras";
+            this.label19.Text = "19";
             // 
             // label16
             // 
             this.label16.AutoSize = true;
-            this.label16.Location = new System.Drawing.Point(139, 404);
+            this.label16.Location = new System.Drawing.Point(201, 390);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(53, 26);
+            this.label16.Size = new System.Drawing.Size(19, 13);
             this.label16.TabIndex = 21;
-            this.label16.Text = "Mini\r\nP.e.k.k.a.\r\n";
+            this.label16.Text = "16";
             this.label16.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label12
             // 
             this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(78, 407);
+            this.label12.Location = new System.Drawing.Point(201, 261);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(46, 26);
+            this.label12.Size = new System.Drawing.Size(19, 13);
             this.label12.TabIndex = 20;
-            this.label12.Text = "Bola de \r\nfuego";
+            this.label12.Text = "12";
             this.label12.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(25, 255);
+            this.label9.Location = new System.Drawing.Point(7, 261);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(29, 13);
+            this.label9.Size = new System.Drawing.Size(13, 13);
             this.label9.TabIndex = 19;
-            this.label9.Text = "Zap!";
+            this.label9.Text = "9";
             // 
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(213, 197);
+            this.label8.Location = new System.Drawing.Point(201, 181);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(34, 13);
+            this.label8.Size = new System.Drawing.Size(13, 13);
             this.label8.TabIndex = 18;
-            this.label8.Text = "Mago";
+            this.label8.Text = "8";
             this.label8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(144, 195);
+            this.label7.Location = new System.Drawing.Point(141, 181);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(42, 26);
+            this.label7.Size = new System.Drawing.Size(13, 13);
             this.label7.TabIndex = 17;
-            this.label7.Text = "Torre \r\nInfernal";
+            this.label7.Text = "7";
             this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.label7.Click += new System.EventHandler(this.label7_Click);
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(78, 195);
+            this.label6.Location = new System.Drawing.Point(78, 181);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(50, 26);
+            this.label6.Size = new System.Drawing.Size(13, 13);
             this.label6.TabIndex = 16;
-            this.label6.Text = "Arete de \r\nbatalla";
+            this.label6.Text = "6";
             this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label6.Click += new System.EventHandler(this.label6_Click);
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(19, 195);
+            this.label5.Location = new System.Drawing.Point(7, 181);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(41, 13);
+            this.label5.Size = new System.Drawing.Size(13, 13);
             this.label5.TabIndex = 15;
-            this.label5.Text = "Valkiria";
+            this.label5.Text = "5";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(207, 35);
+            this.label4.Location = new System.Drawing.Point(201, 46);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(46, 26);
+            this.label4.Size = new System.Drawing.Size(13, 13);
             this.label4.TabIndex = 14;
-            this.label4.Text = "Bola de \r\nfuego";
+            this.label4.Text = "4";
             this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(144, 35);
+            this.label3.Location = new System.Drawing.Point(141, 46);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(47, 26);
+            this.label3.Size = new System.Drawing.Size(13, 13);
             this.label3.TabIndex = 13;
-            this.label3.Text = "Gigante \r\nNoble";
+            this.label3.Text = "3";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(90, 45);
+            this.label2.Location = new System.Drawing.Point(78, 46);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(29, 13);
+            this.label2.Size = new System.Drawing.Size(13, 13);
             this.label2.TabIndex = 12;
-            this.label2.Text = "Zap!";
+            this.label2.Text = "2";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(7, 49);
+            this.label1.Location = new System.Drawing.Point(7, 42);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(64, 13);
+            this.label1.Size = new System.Drawing.Size(13, 13);
             this.label1.TabIndex = 11;
-            this.label1.Text = "Murcielagos";
+            this.label1.Text = "1";
             // 
             // pictureBox2
             // 
@@ -495,6 +496,7 @@
             this.groupBox2.Controls.Add(this.S2J2);
             this.groupBox2.Controls.Add(this.Def2J2);
             this.groupBox2.Controls.Add(this.A2J2);
+            this.groupBox2.Controls.Add(this.label23);
             this.groupBox2.Controls.Add(this.V2J2);
             this.groupBox2.Controls.Add(this.D2j2);
             this.groupBox2.Controls.Add(this.S1J2);
@@ -503,9 +505,13 @@
             this.groupBox2.Controls.Add(this.V1J2);
             this.groupBox2.Controls.Add(this.D1j2);
             this.groupBox2.Controls.Add(this.label32);
+            this.groupBox2.Controls.Add(this.label22);
+            this.groupBox2.Controls.Add(this.label21);
+            this.groupBox2.Controls.Add(this.label20);
             this.groupBox2.Controls.Add(this.label31);
             this.groupBox2.Controls.Add(this.label30);
             this.groupBox2.Controls.Add(this.label29);
+            this.groupBox2.Controls.Add(this.label19);
             this.groupBox2.Controls.Add(this.label28);
             this.groupBox2.Controls.Add(this.label27);
             this.groupBox2.Controls.Add(this.label26);
@@ -513,11 +519,6 @@
             this.groupBox2.Controls.Add(this.label24);
             this.groupBox2.Controls.Add(this.label18);
             this.groupBox2.Controls.Add(this.label17);
-            this.groupBox2.Controls.Add(this.label15);
-            this.groupBox2.Controls.Add(this.label14);
-            this.groupBox2.Controls.Add(this.label13);
-            this.groupBox2.Controls.Add(this.label11);
-            this.groupBox2.Controls.Add(this.label10);
             this.groupBox2.Controls.Add(this.pictureBox4);
             this.groupBox2.Controls.Add(this.pictureBox3);
             this.groupBox2.Controls.Add(this.Deck1J2);
@@ -641,158 +642,159 @@
             // label32
             // 
             this.label32.AutoSize = true;
-            this.label32.Location = new System.Drawing.Point(194, 405);
+            this.label32.Location = new System.Drawing.Point(193, 390);
             this.label32.Name = "label32";
-            this.label32.Size = new System.Drawing.Size(60, 13);
+            this.label32.Size = new System.Drawing.Size(19, 13);
             this.label32.TabIndex = 32;
-            this.label32.Text = "Cementerio";
+            this.label32.Text = "32";
             this.label32.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label31
             // 
             this.label31.AutoSize = true;
-            this.label31.Location = new System.Drawing.Point(137, 401);
+            this.label31.Location = new System.Drawing.Point(138, 390);
             this.label31.Name = "label31";
-            this.label31.Size = new System.Drawing.Size(51, 26);
+            this.label31.Size = new System.Drawing.Size(19, 13);
             this.label31.TabIndex = 31;
-            this.label31.Text = "Bruja\r\nNocturna";
+            this.label31.Text = "30";
             this.label31.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label30
             // 
             this.label30.AutoSize = true;
-            this.label30.Location = new System.Drawing.Point(74, 401);
+            this.label30.Location = new System.Drawing.Point(74, 390);
             this.label30.Name = "label30";
-            this.label30.Size = new System.Drawing.Size(48, 26);
+            this.label30.Size = new System.Drawing.Size(19, 13);
             this.label30.TabIndex = 30;
-            this.label30.Text = "Mago\r\nElectrico";
+            this.label30.Text = "30";
             this.label30.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label29
             // 
             this.label29.AutoSize = true;
-            this.label29.Location = new System.Drawing.Point(12, 405);
+            this.label29.Location = new System.Drawing.Point(10, 390);
             this.label29.Name = "label29";
-            this.label29.Size = new System.Drawing.Size(46, 13);
+            this.label29.Size = new System.Drawing.Size(19, 13);
             this.label29.TabIndex = 29;
-            this.label29.Text = "Bandida";
+            this.label29.Text = "29";
             this.label29.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label28
             // 
             this.label28.AutoSize = true;
-            this.label28.Location = new System.Drawing.Point(200, 253);
+            this.label28.Location = new System.Drawing.Point(193, 261);
             this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(44, 13);
+            this.label28.Size = new System.Drawing.Size(19, 13);
             this.label28.TabIndex = 28;
-            this.label28.Text = "Gigante";
+            this.label28.Text = "28";
             // 
             // label27
             // 
             this.label27.AutoSize = true;
-            this.label27.Location = new System.Drawing.Point(8, 255);
+            this.label27.Location = new System.Drawing.Point(136, 261);
             this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(59, 13);
+            this.label27.Size = new System.Drawing.Size(19, 13);
             this.label27.TabIndex = 27;
-            this.label27.Text = "Esqueletos";
+            this.label27.Text = "27";
             // 
             // label26
             // 
             this.label26.AutoSize = true;
-            this.label26.Location = new System.Drawing.Point(201, 190);
+            this.label26.Location = new System.Drawing.Point(74, 261);
             this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(44, 26);
+            this.label26.Size = new System.Drawing.Size(19, 13);
             this.label26.TabIndex = 26;
-            this.label26.Text = "Arquero\r\nmagico";
+            this.label26.Text = "26";
             this.label26.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label25
             // 
             this.label25.AutoSize = true;
-            this.label25.Location = new System.Drawing.Point(136, 193);
+            this.label25.Location = new System.Drawing.Point(10, 261);
             this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(48, 26);
+            this.label25.Size = new System.Drawing.Size(19, 13);
             this.label25.TabIndex = 25;
-            this.label25.Text = "Mago\r\nElectrico";
+            this.label25.Text = "25";
             this.label25.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label24
             // 
             this.label24.AutoSize = true;
-            this.label24.Location = new System.Drawing.Point(76, 194);
+            this.label24.Location = new System.Drawing.Point(193, 181);
             this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(46, 13);
+            this.label24.Size = new System.Drawing.Size(19, 13);
             this.label24.TabIndex = 24;
-            this.label24.Text = "Bandida";
+            this.label24.Text = "24";
             this.label24.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label24.Click += new System.EventHandler(this.label24_Click);
             // 
             // label18
             // 
             this.label18.AutoSize = true;
-            this.label18.Location = new System.Drawing.Point(10, 190);
+            this.label18.Location = new System.Drawing.Point(74, 46);
             this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(53, 26);
+            this.label18.Size = new System.Drawing.Size(19, 13);
             this.label18.TabIndex = 23;
-            this.label18.Text = "Fantasma\r\nReal";
+            this.label18.Text = "18";
             this.label18.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label17
             // 
             this.label17.AutoSize = true;
-            this.label17.Location = new System.Drawing.Point(195, 49);
+            this.label17.Location = new System.Drawing.Point(10, 49);
             this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(54, 13);
+            this.label17.Size = new System.Drawing.Size(19, 13);
             this.label17.TabIndex = 22;
-            this.label17.Text = "P.E.K.K.A";
+            this.label17.Text = "17";
             this.label17.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label15
             // 
             this.label15.AutoSize = true;
-            this.label15.Location = new System.Drawing.Point(137, 46);
+            this.label15.Location = new System.Drawing.Point(141, 390);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(50, 26);
+            this.label15.Size = new System.Drawing.Size(19, 13);
             this.label15.TabIndex = 21;
-            this.label15.Text = "Arete de \r\nbatalla";
+            this.label15.Text = "15";
             this.label15.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label14
             // 
             this.label14.AutoSize = true;
-            this.label14.Location = new System.Drawing.Point(137, 251);
+            this.label14.Location = new System.Drawing.Point(78, 390);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(46, 26);
+            this.label14.Size = new System.Drawing.Size(19, 13);
             this.label14.TabIndex = 22;
-            this.label14.Text = "Bola de \r\nfuego";
+            this.label14.Text = "14";
             this.label14.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label13
             // 
             this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(76, 43);
+            this.label13.Location = new System.Drawing.Point(7, 390);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(46, 26);
+            this.label13.Size = new System.Drawing.Size(19, 13);
             this.label13.TabIndex = 21;
-            this.label13.Text = "Bola de \r\nfuego";
+            this.label13.Text = "13";
             this.label13.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label11
             // 
             this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(86, 253);
+            this.label11.Location = new System.Drawing.Point(141, 261);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(29, 13);
+            this.label11.Size = new System.Drawing.Size(19, 13);
             this.label11.TabIndex = 21;
-            this.label11.Text = "Zap!";
+            this.label11.Text = "11";
             // 
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(24, 46);
+            this.label10.Location = new System.Drawing.Point(78, 261);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(29, 13);
+            this.label10.Size = new System.Drawing.Size(19, 13);
             this.label10.TabIndex = 20;
-            this.label10.Text = "Zap!";
+            this.label10.Text = "10";
             // 
             // pictureBox4
             // 
