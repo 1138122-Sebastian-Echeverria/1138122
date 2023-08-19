@@ -1,7 +1,0 @@
-C:\Users\MAAG\source\repos\AnticipacionErrores\AnticipacionErrores\bin\Debug\AnticipacionErrores.exe.config
-C:\Users\MAAG\source\repos\AnticipacionErrores\AnticipacionErrores\bin\Debug\AnticipacionErrores.exe
-C:\Users\MAAG\source\repos\AnticipacionErrores\AnticipacionErrores\bin\Debug\AnticipacionErrores.pdb
-C:\Users\MAAG\source\repos\AnticipacionErrores\AnticipacionErrores\obj\Debug\AnticipacionErrores.csproj.AssemblyReference.cache
-C:\Users\MAAG\source\repos\AnticipacionErrores\AnticipacionErrores\obj\Debug\AnticipacionErrores.csproj.CoreCompileInputs.cache
-C:\Users\MAAG\source\repos\AnticipacionErrores\AnticipacionErrores\obj\Debug\AnticipacionErrores.exe
-C:\Users\MAAG\source\repos\AnticipacionErrores\AnticipacionErrores\obj\Debug\AnticipacionErrores.pdb

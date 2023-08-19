@@ -1,8 +1,0 @@
-C:\Users\Virtu\Documents\GitHub\1138122\Laboratorios (TS)\Tareas\PRÁCTICA DEL SUPERVISADO – SEMANA 12\Ejercicio1_SEF1138122\Ejercicio1_SEF1138122\bin\Debug\Ejercicio1_SEF1138122.exe.config
-C:\Users\Virtu\Documents\GitHub\1138122\Laboratorios (TS)\Tareas\PRÁCTICA DEL SUPERVISADO – SEMANA 12\Ejercicio1_SEF1138122\Ejercicio1_SEF1138122\bin\Debug\Ejercicio1_SEF1138122.exe
-C:\Users\Virtu\Documents\GitHub\1138122\Laboratorios (TS)\Tareas\PRÁCTICA DEL SUPERVISADO – SEMANA 12\Ejercicio1_SEF1138122\Ejercicio1_SEF1138122\bin\Debug\Ejercicio1_SEF1138122.pdb
-C:\Users\Virtu\Documents\GitHub\1138122\Laboratorios (TS)\Tareas\PRÁCTICA DEL SUPERVISADO – SEMANA 12\Ejercicio1_SEF1138122\Ejercicio1_SEF1138122\obj\Debug\Ejercicio1_SEF1138122.csproj.AssemblyReference.cache
-C:\Users\Virtu\Documents\GitHub\1138122\Laboratorios (TS)\Tareas\PRÁCTICA DEL SUPERVISADO – SEMANA 12\Ejercicio1_SEF1138122\Ejercicio1_SEF1138122\obj\Debug\Ejercicio1_SEF1138122.csproj.SuggestedBindingRedirects.cache
-C:\Users\Virtu\Documents\GitHub\1138122\Laboratorios (TS)\Tareas\PRÁCTICA DEL SUPERVISADO – SEMANA 12\Ejercicio1_SEF1138122\Ejercicio1_SEF1138122\obj\Debug\Ejercicio1_SEF1138122.csproj.CoreCompileInputs.cache
-C:\Users\Virtu\Documents\GitHub\1138122\Laboratorios (TS)\Tareas\PRÁCTICA DEL SUPERVISADO – SEMANA 12\Ejercicio1_SEF1138122\Ejercicio1_SEF1138122\obj\Debug\Ejercicio1_SEF1138122.exe
-C:\Users\Virtu\Documents\GitHub\1138122\Laboratorios (TS)\Tareas\PRÁCTICA DEL SUPERVISADO – SEMANA 12\Ejercicio1_SEF1138122\Ejercicio1_SEF1138122\obj\Debug\Ejercicio1_SEF1138122.pdb

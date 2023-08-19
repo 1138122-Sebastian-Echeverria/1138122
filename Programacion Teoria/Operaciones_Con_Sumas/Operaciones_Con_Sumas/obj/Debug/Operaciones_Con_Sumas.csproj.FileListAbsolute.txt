@@ -1,8 +1,0 @@
-C:\Users\Virtu\Documents\Progra\Operaciones_Con_Sumas\Operaciones_Con_Sumas\obj\Debug\Operaciones_Con_Sumas.csproj.AssemblyReference.cache
-C:\Users\Virtu\Documents\Progra\Operaciones_Con_Sumas\Operaciones_Con_Sumas\obj\Debug\Operaciones_Con_Sumas.csproj.SuggestedBindingRedirects.cache
-C:\Users\Virtu\Documents\Progra\Operaciones_Con_Sumas\Operaciones_Con_Sumas\obj\Debug\Operaciones_Con_Sumas.csproj.CoreCompileInputs.cache
-C:\Users\Virtu\Documents\Progra\Operaciones_Con_Sumas\Operaciones_Con_Sumas\bin\Debug\Operaciones_Con_Sumas.exe.config
-C:\Users\Virtu\Documents\Progra\Operaciones_Con_Sumas\Operaciones_Con_Sumas\bin\Debug\Operaciones_Con_Sumas.exe
-C:\Users\Virtu\Documents\Progra\Operaciones_Con_Sumas\Operaciones_Con_Sumas\bin\Debug\Operaciones_Con_Sumas.pdb
-C:\Users\Virtu\Documents\Progra\Operaciones_Con_Sumas\Operaciones_Con_Sumas\obj\Debug\Operaciones_Con_Sumas.exe
-C:\Users\Virtu\Documents\Progra\Operaciones_Con_Sumas\Operaciones_Con_Sumas\obj\Debug\Operaciones_Con_Sumas.pdb

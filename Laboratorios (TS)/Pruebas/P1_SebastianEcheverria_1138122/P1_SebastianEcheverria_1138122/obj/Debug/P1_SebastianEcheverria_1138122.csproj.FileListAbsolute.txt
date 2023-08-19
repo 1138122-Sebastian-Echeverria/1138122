@@ -1,7 +1,0 @@
-C:\Users\estudiante\Documents\Eche\P1_SebastianEcheverria_1138122\P1_SebastianEcheverria_1138122\obj\Debug\P1_SebastianEcheverria_1138122.csproj.AssemblyReference.cache
-C:\Users\estudiante\Documents\Eche\P1_SebastianEcheverria_1138122\P1_SebastianEcheverria_1138122\obj\Debug\P1_SebastianEcheverria_1138122.csproj.CoreCompileInputs.cache
-C:\Users\estudiante\Documents\Eche\P1_SebastianEcheverria_1138122\P1_SebastianEcheverria_1138122\bin\Debug\P1_SebastianEcheverria_1138122.exe.config
-C:\Users\estudiante\Documents\Eche\P1_SebastianEcheverria_1138122\P1_SebastianEcheverria_1138122\bin\Debug\P1_SebastianEcheverria_1138122.exe
-C:\Users\estudiante\Documents\Eche\P1_SebastianEcheverria_1138122\P1_SebastianEcheverria_1138122\bin\Debug\P1_SebastianEcheverria_1138122.pdb
-C:\Users\estudiante\Documents\Eche\P1_SebastianEcheverria_1138122\P1_SebastianEcheverria_1138122\obj\Debug\P1_SebastianEcheverria_1138122.exe
-C:\Users\estudiante\Documents\Eche\P1_SebastianEcheverria_1138122\P1_SebastianEcheverria_1138122\obj\Debug\P1_SebastianEcheverria_1138122.pdb
