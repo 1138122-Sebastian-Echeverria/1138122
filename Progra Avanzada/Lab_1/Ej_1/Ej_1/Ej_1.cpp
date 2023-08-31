@@ -24,7 +24,7 @@ int modificarIndiceArreglo(int* arreglo, int length, int* dato, int posicion) {
 	}
 	else
 	{
-		int valorOriginal = *(arreglo + posicion); //Guardar ek valor original
+		int valorOriginal = *(arreglo + posicion); //Guardar el valor original
 		*(arreglo + posicion) = *dato; //Cambio de valor
 		return valorOriginal;
 		// arreglo[indice] = * dato
