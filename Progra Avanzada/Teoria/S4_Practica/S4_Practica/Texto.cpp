@@ -1,21 +1,21 @@
 #include "Texto.h"
+using namespace std;
 
 int Texto::getLength()
 {
-
 	return cadena.length();
 }
 
 bool Texto::contains(char c)
 {
 
-	for (int i = 0; i < cadena.length(); i++)
+	for (int i = 0; i < getLength(); i++)
 	{
 		if (c = cadena[i])
 		{
 			return true;
 		}
-		else if (i = (cadena.length() - 1))
+		else if (i = (getLength() - 1))
 		{
 			return false;
 		}
@@ -24,20 +24,44 @@ bool Texto::contains(char c)
 
 bool Texto::contains(char c, int a)
 {
-	return false || true;
+	int n = 0;
+	for (int i = 0; i < getLength(); i++)
+	{
+		
+
+		if (c = cadena[i])
+		{
+			n++;
+		}
+	}
+
+	if (n >= a)
+	{
+		return true;
+	}
+	else
+	{
+		return false;
+	}
 }
 
-string reverseR()
+string reverseR(string texto, int i = 0)
 {
-	//Logica recursiva
+	if (i == texto.length()) {
+			return "";
+		}
+		else {
+			// Llamada recursiva para invertir la parte restante de la cadena
+			string reversed = reverseR(texto, i + 1);
+
+			// Agregamos el carácter actual al final de la cadena invertida
+			return reversed + texto[i];
+		}
 }
 
 string Texto::reverse() 
 {
-	//Recursiva
-	//abcd -> dcba
-
-	return reverseR("abcd");
+	return reverseR(cadena);
 }
 
 bool palindromoR()
