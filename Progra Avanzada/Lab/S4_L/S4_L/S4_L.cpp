@@ -1,6 +1,7 @@
 #include <iostream>
 using namespace std;
 
+//1) mcd
 int mcd(int a, int b)
 {
     if (a > b && b == 0) return a;
@@ -8,6 +9,7 @@ int mcd(int a, int b)
     return mcd(b, a % b);
 }
 
+//2) Triangulo de sumas
 int triangulo(int* a, int n)
 {
     int c = n - 1;
@@ -33,6 +35,51 @@ int triangulo(int* a, int n)
     cout << "] " << endl;
     cout << endl;
     return triangulo(b, c);
+}
+
+//3) Invertir arreglo
+string reverse(string texto, int i = 0)
+{
+    if (i == texto.length()) {
+        return "";
+    }
+    else {
+        string reversed = reverse(texto, i + 1);
+
+        return reversed + texto[i];
+    }
+}
+
+//4) Contains
+bool primo(int n, int divisor = 2) 
+{
+    if (n <= 1) {
+        return false;
+    }
+    if (n == 2) {
+        return true;
+    }
+    if (n % divisor == 0) {
+        return false;
+    }
+    if (divisor * divisor > n) {
+        return true;
+    }
+    return primo(n, divisor + 1);
+}
+
+//5) Iteracion
+int f(int n)
+{
+    if (n < 1) return 1;
+
+    int resultado = 1;
+
+    for (int i = 2; i <= n; ++i) {
+        resultado = resultado * (i / 2) + resultado;
+    }
+
+    return resultado;
 }
 
 int main()
@@ -66,10 +113,22 @@ int main()
     }
     cout << "] " << endl;
     cout << endl;
+    triangulo(matriz1, n);
+    cout << endl;
 
-    //Imprimir
-    cout << triangulo(matriz1, n);
+    //Invertir arreglo
+    cout << "Invertir Arreglos:" << endl;
+    cout << reverse("ABCD") << endl;
+    cout << endl;
 
+    //Contains (0 es falso, 1 es verdadero)
+    cout << "Contains:" << endl;
+    cout << primo(8) << endl;
+    cout << endl;
+
+    //Iteración
+    cout << "Iteracion:" << endl;
+    cout << f(5) << endl;
 }
 
 // Ejecutar programa: Ctrl + F5 o menú Depurar > Iniciar sin depurar

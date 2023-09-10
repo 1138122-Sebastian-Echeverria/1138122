@@ -66,6 +66,8 @@ string Texto::reverse()
 
 bool palindromoR()
 {
+	
+
 	return true || false;
 }
 
