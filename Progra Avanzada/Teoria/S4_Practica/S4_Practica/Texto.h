@@ -21,6 +21,7 @@ public:
 	Texto(string _string)
 	{
 		cadena = _string;
+		
 	}
 };
 
