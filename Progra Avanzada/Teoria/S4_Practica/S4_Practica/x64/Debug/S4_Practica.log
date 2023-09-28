@@ -1,0 +1,5 @@
+﻿  Texto.cpp
+C:\Users\Virtu\Documents\GitHub\1138122\Progra Avanzada\Teoria\S4_Practica\S4_Practica\Texto.cpp(6,22): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Virtu\Documents\GitHub\1138122\Progra Avanzada\Teoria\S4_Practica\S4_Practica\Texto.cpp(86,45): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Virtu\Documents\GitHub\1138122\Progra Avanzada\Teoria\S4_Practica\S4_Practica\Texto.cpp(23): warning C4715: 'Texto::contains': not all control paths return a value
+  S4_Practica.vcxproj -> C:\Users\Virtu\Documents\GitHub\1138122\Progra Avanzada\Teoria\S4_Practica\x64\Debug\S4_Practica.exe

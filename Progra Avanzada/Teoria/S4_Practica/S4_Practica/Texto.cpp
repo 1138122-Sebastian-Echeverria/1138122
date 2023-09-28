@@ -1,17 +1,19 @@
 #include "Texto.h"
 using namespace std;
 
+//getLength()
 int Texto::getLength()
 {
 	return cadena.length();
 }
 
+//contains(char c)
 bool Texto::contains(char c)
 {
 
 	for (int i = 0; i < getLength(); i++)
 	{
-		if (c = cadena[i])
+		if (c == cadena[i])
 		{
 			return true;
 		}
@@ -22,6 +24,7 @@ bool Texto::contains(char c)
 	}
 }
 
+//contains(char c, int a)
 bool Texto::contains(char c, int a)
 {
 	int n = 0;
@@ -29,7 +32,7 @@ bool Texto::contains(char c, int a)
 	{
 		
 
-		if (c = cadena[i])
+		if (c == cadena[i])
 		{
 			n++;
 		}
@@ -45,6 +48,7 @@ bool Texto::contains(char c, int a)
 	}
 }
 
+//reverse()
 string reverseR(string texto, int i = 0)
 {
 	if (i == texto.length()) {
@@ -64,20 +68,43 @@ string Texto::reverse()
 	return reverseR(cadena);
 }
 
-bool palindromoR()
+//palindromo()
+bool PalindromoR(const string S,int inicio, int fin) 
 {
-	return true || false;
+	if (inicio >= fin) {
+		return true; // Caso base: cadena de longitud 0 o 1, es palíndromo
+	}
+
+	if (S[inicio] != S[fin]) {
+		return false; // Los caracteres no coinciden, no es palíndromo
+	}
+
+	// Llamada recursiva para verificar el siguiente par de caracteres
+	return PalindromoR(S, inicio + 1, fin - 1);
 }
 
-bool palindromo()
+bool Texto::palindromo()
 {
 	// aaa -> palindromo
 	// abba -> palindromo
 	// abcccccccba -> palindromo
-	return palindromoR();
+	return PalindromoR(cadena, 0, cadena.length()-1);
+}
+
+//toCharArray
+char* caracter(string cad, int a)
+{
+	char* Car = new char[a];
+
+	for (int i = 0; i < a; i++)
+	{
+		Car[i] = cad[i];
+	}
+
+	return Car;
 }
 
 char* Texto::toCharArray()
 {
-	return new char[0];
+	return caracter(cadena, cadena.length());
 }
