@@ -1,0 +1,16 @@
+﻿  Cancion.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\filesystem(13): warning STL4038: The contents of <filesystem> are available only with C++17 or later.
+  CD.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\filesystem(13): warning STL4038: The contents of <filesystem> are available only with C++17 or later.
+  Proyecto_1.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\filesystem(13): warning STL4038: The contents of <filesystem> are available only with C++17 or later.
+C:\Users\Virtu\OneDrive\Documents\GitHub\1138122\Progra Avanzada\Proyecto\Proyecto_1\Proyecto_1\Proyecto_1.cpp(68,23): error C2653: 'filesystem': is not a class or namespace name
+C:\Users\Virtu\OneDrive\Documents\GitHub\1138122\Progra Avanzada\Proyecto\Proyecto_1\Proyecto_1\Proyecto_1.cpp(68,35): error C3861: 'path': identifier not found
+C:\Users\Virtu\OneDrive\Documents\GitHub\1138122\Progra Avanzada\Proyecto\Proyecto_1\Proyecto_1\Proyecto_1.cpp(91,19): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data
+C:\Users\Virtu\OneDrive\Documents\GitHub\1138122\Progra Avanzada\Proyecto\Proyecto_1\Proyecto_1\Proyecto_1.cpp(193,34): error C2653: 'filesystem': is not a class or namespace name
+C:\Users\Virtu\OneDrive\Documents\GitHub\1138122\Progra Avanzada\Proyecto\Proyecto_1\Proyecto_1\Proyecto_1.cpp(193,1): error C2530: 'entry': references must be initialized
+C:\Users\Virtu\OneDrive\Documents\GitHub\1138122\Progra Avanzada\Proyecto\Proyecto_1\Proyecto_1\Proyecto_1.cpp(193,1): error C3531: 'entry': a symbol whose type contains 'auto' must have an initializer
+C:\Users\Virtu\OneDrive\Documents\GitHub\1138122\Progra Avanzada\Proyecto\Proyecto_1\Proyecto_1\Proyecto_1.cpp(193,32): error C2143: syntax error: missing ';' before ':'
+C:\Users\Virtu\OneDrive\Documents\GitHub\1138122\Progra Avanzada\Proyecto\Proyecto_1\Proyecto_1\Proyecto_1.cpp(193,46): error C3861: 'directory_iterator': identifier not found
+C:\Users\Virtu\OneDrive\Documents\GitHub\1138122\Progra Avanzada\Proyecto\Proyecto_1\Proyecto_1\Proyecto_1.cpp(193,70): error C2143: syntax error: missing ';' before ')'
+  Generating Code...
