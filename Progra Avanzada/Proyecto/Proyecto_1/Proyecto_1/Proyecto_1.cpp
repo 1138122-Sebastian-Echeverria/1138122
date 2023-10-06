@@ -208,6 +208,7 @@ int main() {
     int opcion = 0;
 
     do {
+        cin.clear();
         cout << "\n--- Menu ---" << endl;
         cout << "1. Cargar respaldos" << endl;
         cout << "2. Agregar Cancion" << endl;
