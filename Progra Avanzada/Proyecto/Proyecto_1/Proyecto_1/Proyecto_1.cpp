@@ -68,12 +68,27 @@ public:
 
         string linea;
         while (getline(archivo, linea)) {
-            stringstream ss(linea);
+            size_t posInicio = 0;
+            size_t posFin = linea.find("||");
+
             string nombre, artista, duracion;
 
-            getline(ss, nombre, '|');
-            getline(ss, artista, '|');
-            getline(ss, duracion, '|');
+            // Verifica si se encontró "||" en la línea
+            if (posFin != string::npos) {
+                // Extraer nombre
+                nombre = linea.substr(posInicio, posFin - posInicio);
+                posInicio = posFin + 2;  // Avanzar el índice de inicio más allá de '||'
+
+                // Encontrar la siguiente ocurrencia de '||'
+                posFin = linea.find("||", posInicio);
+
+                // Extraer artista
+                artista = linea.substr(posInicio, posFin - posInicio);
+                posInicio = posFin + 2;  // Avanzar el índice de inicio más allá de '||'
+
+                // Extraer duración
+                duracion = linea.substr(posInicio);
+            }
 
             Cancion cancion;
             cancion.nombre = nombre;
@@ -97,7 +112,6 @@ public:
     }
 
     void agregarCancion() {
-        mostrarCDs();
         mostrarCDs();
         int eleccion;
         cout << "Seleccione un CD: ";
@@ -151,9 +165,13 @@ public:
         }
 
         if (reproduciendo) {
-            cola.push_back(*reproduciendo);
+            // Hacer una copia independiente de la canción antes de eliminarla de la cola
+            *reproduciendo = cola.front();
         }
-        reproduciendo = &cola.front();
+        else {
+            reproduciendo = new Cancion(cola.front()); // O usa el operador de asignación si está definido
+        }
+
         cola.erase(cola.begin());
     }
 
@@ -208,7 +226,6 @@ int main() {
     int opcion = 0;
 
     do {
-        cin.clear();
         cout << "\n--- Menu ---" << endl;
         cout << "1. Cargar respaldos" << endl;
         cout << "2. Agregar Cancion" << endl;
