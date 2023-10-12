@@ -1,3 +1,6 @@
+/*/Diego Javier Lemus Girón – 1211621 
+Sebastian Echeverria - 1138122/*/
+
 #include <iostream>
 #include <vector>
 #include <string>
