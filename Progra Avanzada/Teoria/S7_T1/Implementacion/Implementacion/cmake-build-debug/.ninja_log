@@ -1,0 +1,21 @@
+# ninja log v5
+0	20	1696341045940806237	CMakeFiles/Implementacion.dir/Nodo.cpp.o	df165186d4efdd32
+5	225	1696474865979783111	CMakeFiles/Implementacion.dir/main.cpp.o	3cecc1d0acb9bf5b
+6	230	1696474843322372813	CMakeFiles/Implementacion.dir/Lista.cpp.o	e135ec7a0c0917ef
+225	257	1696474866013830103	Implementacion	88526873a8486aad
+5	34	1696514188170277859	CMakeFiles/Implementacion.dir/Cola.cpp.o	1db379f3e11acab4
+4	227	1696514188360352127	CMakeFiles/Implementacion.dir/main.cpp.o	3cecc1d0acb9bf5b
+5	228	1696514188360421753	CMakeFiles/Implementacion.dir/Lista.cpp.o	e135ec7a0c0917ef
+228	419	1696514188554891327	Implementacion	6f9477ed002b6934
+4	223	1696514210739068491	CMakeFiles/Implementacion.dir/main.cpp.o	3cecc1d0acb9bf5b
+223	252	1696514210769892846	Implementacion	6f9477ed002b6934
+4	224	1696514229391962002	CMakeFiles/Implementacion.dir/main.cpp.o	3cecc1d0acb9bf5b
+224	254	1696514229422772273	Implementacion	6f9477ed002b6934
+3	218	1696514257283445805	CMakeFiles/Implementacion.dir/main.cpp.o	3cecc1d0acb9bf5b
+218	248	1696514257315286204	Implementacion	6f9477ed002b6934
+3	23	1696514303828218870	CMakeFiles/Implementacion.dir/Cola.cpp.o	1db379f3e11acab4
+23	53	1696514303858348014	Implementacion	6f9477ed002b6934
+3	221	1696514326850337119	CMakeFiles/Implementacion.dir/main.cpp.o	3cecc1d0acb9bf5b
+221	250	1696514326881452014	Implementacion	6f9477ed002b6934
+3	224	1696514349272865046	CMakeFiles/Implementacion.dir/main.cpp.o	3cecc1d0acb9bf5b
+224	255	1696514349304978239	Implementacion	6f9477ed002b6934
