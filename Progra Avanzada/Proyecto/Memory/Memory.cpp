@@ -22,13 +22,13 @@ void loadDataFromFile(const std::string& filename, DoublyLinkedList& list) {
         if (std::getline(iss, key, ',') && std::getline(iss, data)) {
             std::string hashedKey = hashFunction(key);
 
-            std::cout << "Leyendo línea: " << line << std::endl; // Mensaje de depuración
+            std::cout << "Leyendo linea: " << line << std::endl; // Mensaje de depuración
             // Inserta el par llave-datos en la lista.
             list.insertSorted(hashedKey, data);
         }
         else {  
             // Manejo de errores en caso de formato incorrecto de línea.
-            std::cerr << "Formato de línea incorrecto: " << line << std::endl;
+            std::cerr << "Formato de linea incorrecto: " << line << std::endl;
         }
     }
 
@@ -74,11 +74,11 @@ int main() {
     std::string input;
 
     do {
-        std::cout << "1. Cargar más datos\n";
+        std::cout << "1. Cargar mas datos\n";
         std::cout << "2. Buscar por llave\n";
         std::cout << "3. Buscar por valor\n";
         std::cout << "4. Salir\n";
-        std::cout << "Ingrese una opción: ";
+        std::cout << "Ingrese una opcion: ";
         std::cin >> option;
 
         switch (option) {
@@ -101,7 +101,7 @@ int main() {
             std::cout << "Saliendo...\n";
             break;
         default:
-            std::cout << "Opción no válida. Intente de nuevo.\n";
+            std::cout << "Opcion no valida. Intente de nuevo.\n";
         }
     } while (option != 4);
 
