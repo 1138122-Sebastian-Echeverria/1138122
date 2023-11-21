@@ -1,3 +1,0 @@
-C:\Users\Bryan\OneDrive\Escritorio\URL\AVANZADA\Laboratorios\Memory\x64\Debug\Memory.exe
-C:\Users\besal\Downloads\Memory\Memory\x64\Debug\Memory.exe
-C:\Users\Virtu\Documents\Github\1138122\Progra Avanzada\Proyecto\Memory\Memory\x64\Debug\Memory.exe
