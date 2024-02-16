@@ -1,3 +1,0 @@
-C:/Users/Abraham/Downloads/Implementacion/cmake-build-debug/CMakeFiles/Implementacion.dir
-C:/Users/Abraham/Downloads/Implementacion/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/Abraham/Downloads/Implementacion/cmake-build-debug/CMakeFiles/rebuild_cache.dir

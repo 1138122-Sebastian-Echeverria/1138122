@@ -1,4 +1,0 @@
-﻿  Ej_2.cpp
-C:\Users\Virtu\Documents\GitHub\1138122\Progra Avanzada\Lab_1\Ej_2\Ej_2\Ej_2.cpp(10,29): warning C4244: 'initializing': conversion from 'double' to 'size_t', possible loss of data
-C:\Users\Virtu\Documents\GitHub\1138122\Progra Avanzada\Lab_1\Ej_2\Ej_2\Ej_2.cpp(32,9): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
-  Ej_2.vcxproj -> C:\Users\Virtu\Documents\GitHub\1138122\Progra Avanzada\Lab_1\Ej_2\x64\Debug\Ej_2.exe
