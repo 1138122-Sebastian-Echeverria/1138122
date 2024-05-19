@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Virtu\\Documents\\GitHub\\1138122\\Lab_Datos\\Lab1\\LAB1\\LAB1\\LAB1.csproj": {}
+    "C:\\Users\\Virtu\\Documents\\Github\\1138122\\Lab_Datos\\Lab1\\LAB1\\LAB1\\LAB1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Virtu\\Documents\\GitHub\\1138122\\Lab_Datos\\Lab1\\LAB1\\LAB1\\LAB1.csproj": {
+    "C:\\Users\\Virtu\\Documents\\Github\\1138122\\Lab_Datos\\Lab1\\LAB1\\LAB1\\LAB1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Virtu\\Documents\\GitHub\\1138122\\Lab_Datos\\Lab1\\LAB1\\LAB1\\LAB1.csproj",
+        "projectUniqueName": "C:\\Users\\Virtu\\Documents\\Github\\1138122\\Lab_Datos\\Lab1\\LAB1\\LAB1\\LAB1.csproj",
         "projectName": "LAB1",
-        "projectPath": "C:\\Users\\Virtu\\Documents\\GitHub\\1138122\\Lab_Datos\\Lab1\\LAB1\\LAB1\\LAB1.csproj",
+        "projectPath": "C:\\Users\\Virtu\\Documents\\Github\\1138122\\Lab_Datos\\Lab1\\LAB1\\LAB1\\LAB1.csproj",
         "packagesPath": "C:\\Users\\Virtu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Virtu\\Documents\\GitHub\\1138122\\Lab_Datos\\Lab1\\LAB1\\LAB1\\obj\\",
+        "outputPath": "C:\\Users\\Virtu\\Documents\\Github\\1138122\\Lab_Datos\\Lab1\\LAB1\\LAB1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Virtu\\AppData\\Roaming\\NuGet\\NuGet.Config",

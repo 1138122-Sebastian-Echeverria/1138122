@@ -1,203 +1,142 @@
-﻿using System;
-using System.IO;
+﻿//"C:\\Users\\Virtu\\Documents\\Github\\1138122\\Lab_Datos\\input_challenge.jsonl"
+//"C:\\Users\\Virtu\\Documents\\Github\\1138122\\Lab_Datos\\Output.json"
+using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Text.Json;
+
+public class Apartment
+{
+    public List<string> Businesses { get; set; }
+
+    public Apartment(List<string> businesses)
+    {
+        Businesses = businesses;
+    }
+}
 
 class Program
 {
-    static void Main()
+    static int SearchApartment(List<Apartment> map, string business, int index)
     {
-        string path = "C:\\Users\\Virtu\\Documents\\Github\\1138122\\Lab_Datos\\input_example.jsonl"; // Cambia esto por la ruta del archivo de entrada
-        string outputPath = "C:\\Users\\Virtu\\Documents\\Github\\1138122\\Lab_Datos\\output.json"; // Ruta del archivo de salida
-        StreamReader file = new StreamReader(path);
-        StreamWriter outputFile = new StreamWriter(outputPath);
+        int stepsBack = -1;
+        int stepsFront = -1;
 
-        string line;
-        while ((line = file.ReadLine()) != null)
+        for (int i = index; i >= 0; i--)
         {
-            using (JsonDocument document = JsonDocument.Parse(line))
+            if (map[i].Businesses.Contains(business))
             {
-                JsonElement root = document.RootElement;
-                JsonElement apartments = root.GetProperty("input1");
-                JsonElement requirements = root.GetProperty("input2");
+                stepsBack = index - i;
+                break;
+            }
+        }
 
-                List<int> validApartments = new List<int>();
-                for (int i = 0; i < apartments.GetArrayLength(); i++)
+        for (int i = index; i < map.Count; i++)
+        {
+            if (map[i].Businesses.Contains(business))
+            {
+                stepsFront = i - index;
+                break;
+            }
+        }
+
+        int resultBack = stepsBack == -1 ? int.MaxValue : stepsBack;
+        int resultFront = stepsFront == -1 ? int.MaxValue : stepsFront;
+
+        return resultBack == int.MaxValue && resultFront == int.MaxValue ? -1 : Math.Min(resultBack, resultFront);
+    }
+
+    static int Recommendation(List<Apartment> map, List<string> businesses)
+    {
+        if (businesses.Count == 0)
+            return -1; // No businesses required, no apartments needed.
+
+        int minSteps = int.MaxValue;
+        int bestIndex = -1;
+        int bestMaxSteps = int.MaxValue;
+
+        for (int i = 0; i < map.Count; i++)
+        {
+            int totalSteps = 0;
+            int maxSteps = 0;
+            bool anyBusinessFound = false;
+
+            foreach (string business in businesses)
+            {
+                int steps = SearchApartment(map, business, i);
+                if (steps == -1) // Business not found in any apartment.
                 {
-                    JsonElement apartment = apartments[i];
-                    bool isValid = true;
-                    foreach (JsonElement req in requirements.EnumerateArray())
+                    totalSteps = int.MaxValue;
+                    break;
+                }
+
+                anyBusinessFound = true;
+                totalSteps += steps;
+                if (steps > maxSteps)
+                    maxSteps = steps;
+            }
+
+            if (anyBusinessFound && (totalSteps < minSteps || (totalSteps == minSteps && maxSteps < bestMaxSteps)))
+            {
+                minSteps = totalSteps;
+                bestIndex = i;
+                bestMaxSteps = maxSteps;
+            }
+        }
+
+        return bestIndex;
+    }
+
+    static void Main(string[] args)
+    {
+        string filePath = @"C:\\Users\\Virtu\\Documents\\Github\\1138122\\Lab_Datos\\input_challenge.jsonl";
+        string outputFilePath = @"C:\\Users\\Virtu\\Documents\\Github\\1138122\\Lab_Datos\\Output.json";
+
+        using (StreamReader file = new StreamReader(filePath))
+        using (StreamWriter outputFile = new StreamWriter(outputFilePath))
+        {
+            string line;
+
+            while ((line = file.ReadLine()) != null)
+            {
+                using (JsonDocument document = JsonDocument.Parse(line))
+                {
+                    var root = document.RootElement;
+                    var input1Array = root.GetProperty("input1").EnumerateArray();
+                    var input2Array = root.GetProperty("input2").EnumerateArray();
+
+                    var map = new List<Apartment>();
+                    var input2 = new List<string>();
+
+                    foreach (var item in input1Array)
                     {
-                        string reqBusiness = req.GetString();
-                        if (!apartment.TryGetProperty(reqBusiness, out JsonElement businessExists) || businessExists.GetBoolean() == false)
+                        var businesses = new List<string>();
+                        foreach (var prop in item.EnumerateObject())
                         {
-                            isValid = false;
-                            break;
+                            if (prop.Value.GetBoolean())
+                                businesses.Add(prop.Name);
                         }
+                        map.Add(new Apartment(businesses));
                     }
 
-                    if (isValid)
+                    foreach (var item in input2Array)
                     {
-                        validApartments.Add(i);
+                        input2.Add(item.GetString());
                     }
-                }
 
-                outputFile.WriteLine(JsonSerializer.Serialize(validApartments));
+                    int result = Recommendation(map, input2);
+                    string outputResult = result == -1 ? "[]" : $"[{result}]";
+
+                    outputFile.WriteLine(outputResult);
+                    Console.WriteLine(outputResult);
+
+                    map.Clear();
+                    input2.Clear();
+                }
             }
         }
 
-        file.Close();
-        outputFile.Close();
+        Console.WriteLine("Proceso completado. Presione cualquier tecla para salir.");
+        Console.ReadKey();
     }
 }
-
-/* 1 o mas requerimientos
-using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Text.Json;
-
-class Program
-{
-    static void Main(string[] args)
-    {
-        string inputFile = "C:\\Users\\Virtu\\Documents\\Github\\1138122\\Lab_Datos\\input_example.jsonl";
-        string outputFile = "C:\\Users\\Virtu\\Documents\\Github\\1138122\\Lab_Datos\\output.json";
-
-        // Leer el archivo de entrada línea por línea
-        string[] inputLines = File.ReadAllLines(inputFile);
-
-        // Procesar cada línea del archivo de entrada
-        List<int[]> recommendations = new List<int[]>();
-        foreach (string line in inputLines)
-        {
-            using (JsonDocument doc = JsonDocument.Parse(line))
-            {
-                JsonElement root = doc.RootElement;
-                JsonElement input1 = root.GetProperty("input1");
-                JsonElement input2 = root.GetProperty("input2");
-
-                int[] recommendation = GetRecommendation(input1, input2);
-                recommendations.Add(recommendation);
-            }
-        }
-
-        // Escribir las recomendaciones en el archivo de salida
-        using (StreamWriter writer = new StreamWriter(outputFile))
-        {
-            foreach (int[] recommendation in recommendations)
-            {
-                string recommendationString = "[" + string.Join(",", recommendation) + "]";
-                writer.WriteLine(recommendationString);
-            }
-        }
-
-        Console.WriteLine("Proceso completado. Las recomendaciones se han guardado en el archivo de salida.");
-    }
-
-    static int[] GetRecommendation(JsonElement input1, JsonElement input2)
-    {
-        List<int> matchingIndices = new List<int>();
-
-        // Revisar cada apartamento en input1
-        for (int i = 0; i < input1.GetArrayLength(); i++)
-        {
-            JsonElement apartment = input1[i];
-            bool meetsAtLeastOneRequirement = false;
-
-            // Verificar si el apartamento cumple al menos con uno de los negocios en input2
-            foreach (JsonElement requirement in input2.EnumerateArray())
-            {
-                string business = requirement.GetString();
-                if (apartment.TryGetProperty(business, out JsonElement value) && value.GetBoolean())
-                {
-                    meetsAtLeastOneRequirement = true;
-                    break;  // Salir del bucle una vez que se encuentre un requisito cumplido
-                }
-            }
-
-            if (meetsAtLeastOneRequirement)
-            {
-                matchingIndices.Add(i);
-            }
-        }
-
-        return matchingIndices.ToArray();
-    }
-}*/
-
-/* 2 o mas requerimientos
-using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Text.Json;
-
-class Program
-{
-    static void Main(string[] args)
-    {
-        string inputFile = "C:\\Users\\Virtu\\Documents\\Github\\1138122\\Lab_Datos\\input_example.jsonl";
-        string outputFile = "C:\\Users\\Virtu\\Documents\\Github\\1138122\\Lab_Datos\\output.json";
-
-        // Leer el archivo de entrada línea por línea
-        string[] inputLines = File.ReadAllLines(inputFile);
-
-        // Procesar cada línea del archivo de entrada
-        List<int[]> recommendations = new List<int[]>();
-        foreach (string line in inputLines)
-        {
-            using (JsonDocument doc = JsonDocument.Parse(line))
-            {
-                JsonElement root = doc.RootElement;
-                JsonElement input1 = root.GetProperty("input1");
-                JsonElement input2 = root.GetProperty("input2");
-
-                int[] recommendation = GetRecommendation(input1, input2);
-                recommendations.Add(recommendation);
-            }
-        }
-
-        // Escribir las recomendaciones en el archivo de salida
-        using (StreamWriter writer = new StreamWriter(outputFile))
-        {
-            foreach (int[] recommendation in recommendations)
-            {
-                string recommendationString = "[" + string.Join(",", recommendation) + "]";
-                writer.WriteLine(recommendationString);
-            }
-        }
-
-        Console.WriteLine("Proceso completado. Las recomendaciones se han guardado en el archivo de salida.");
-    }
-
-    static int[] GetRecommendation(JsonElement input1, JsonElement input2)
-    {
-        List<int> matchingIndices = new List<int>();
-
-        // Revisar cada apartamento en input1
-        for (int i = 0; i < input1.GetArrayLength(); i++)
-        {
-            JsonElement apartment = input1[i];
-            int requirementCount = 0;  // Contador para los requisitos cumplidos
-
-            // Verificar cuántos requisitos cumple el apartamento
-            foreach (JsonElement requirement in input2.EnumerateArray())
-            {
-                string business = requirement.GetString();
-                if (apartment.TryGetProperty(business, out JsonElement value) && value.GetBoolean())
-                {
-                    requirementCount++;
-                }
-            }
-
-            // Si cumple con dos o más requisitos, se agrega a la lista
-            if (requirementCount >= 2)
-            {
-                matchingIndices.Add(i);
-            }
-        }
-
-        return matchingIndices.ToArray();
-    }
-}
- */
