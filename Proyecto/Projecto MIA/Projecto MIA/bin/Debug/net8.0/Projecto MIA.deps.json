@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Projecto MIA/1.0.0": {
+        "runtime": {
+          "Projecto MIA.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Projecto MIA/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
